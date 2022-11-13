@@ -5,7 +5,7 @@ import Pages from "./pages";
 import { ApolloProvider, ApolloClient, InMemoryCache } from "@apollo/client";
 
 const client = new ApolloClient({
-  uri: "https://catstronauts-client-production-d30a.up.railway.app/", // change to YOUR own production server
+  uri: "https://catstronauts-server-production-d4fe.up.railway.app/", // change to YOUR own production server
   cache: new InMemoryCache(),
   name: "web",
   version: "1.0",
